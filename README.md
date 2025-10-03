@@ -28,6 +28,7 @@ node --version
 > If you not have one, install from the [official website](https://nodejs.org/) 
 
 ```bash
+cd zed-one-theme-vsc
 npx @vscode/vsce package
 ```
 - After you run this, in your folder will generate a file ends with **.vsix**.
