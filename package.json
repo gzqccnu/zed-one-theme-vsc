@@ -2,15 +2,11 @@
   "name": "zed-one-theme",
   "displayName": "ZED One Theme",
   "description": "ZED's style, VS Code's compromise.",
-  "version": "0.2.0",
-  "publisher": "ARRRRNY",
-  "icon": "icon.png",
-  "engines": {
-    "vscode": "^1.91.0"
-  },
+  "version": "0.1.0",
+  "publisher": "gzqccnu",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arrrrny/zed-one-theme-vs.git"
+    "url": "https://github.com/gzqccnu/zed-one-theme-vsc.git"
   },
   "keywords": [
     "theme",
@@ -24,20 +20,20 @@
     "Themes"
   ],
   "bugs": {
-    "url": "https://github.com/arrrrny/zed-one-theme-vs/issues"
+    "url": "https://github.com/gzqccnu/zed-one-theme-vsc/issues"
   },
-  "homepage": "https://github.com/arrrrny/zed-one-theme-vs#readme",
+  "homepage": "https://github.com/gzqccnu/zed-one-theme-vsc#readme",
   "contributes": {
     "themes": [
       {
         "label": "ZED One Theme Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/ZED One Dark-color-theme.json"
+        "path": "./themes/zed-one-dark.json"
       },
       {
         "label": "ZED One Theme Light",
         "uiTheme": "vs",
-        "path": "./themes/ZED One Light-color-theme.json"
+        "path": "./themes/zed-one-light.json"
       }
     ]
   }

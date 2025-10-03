@@ -1,46 +1,44 @@
-# My One Theme: Because Sometimes You Have to Slum It
+# zed-one-theme for vscode
 
-## Why This Theme Exists
+## Explanation
+> [!Note]
+> This repository is forked from [zed-one-theme-vs](https://github.com/arrrrny/zed-one-theme-vs). Under MIT license.
+> Why I forked from him and developing it? Cause when I using it, I found there's no support for **markdown** format file.
 
-Look, we all know Zed is the coolest editor on the block. It's fast, it's sleek, and it doesn't need a billion extensions just to function properly. But let's face it, some of us are still dragging around the bloated corpse of VS Code because of those pesky extensions we can't live without.
+## Feature
+- **zed-like:**
+A **zed-like** theme for vsc. Now support **light** theme and **dark** theme
+- **markdown support:**
+Support highlight markdown file.
 
-Maybe it's that one extension that turns your code into interpretive dance. Or perhaps it's the one that replaces all your variable names with obscure Pokemon references. Whatever your poison, we get it. Old habits die hard.
+## QuickStart
+> build on your own, no release.
 
-## What This Theme Does
+- First clone this repo.
+```bash
+git clone https://github.com/gzqccnu/zed-one-theme-vsc.git
+```
+- Then build the extension
+> [!Important]
+> Ensure you have node.
+> you can run below to test.
+```bash
+node --version
+```
+> If you not have one, install from the [official website](https://nodejs.org/) 
 
-This theme brings a little piece of Zed's glory to your sad VS Code existence. It's like putting a racing stripe on a minivan - it doesn't make it faster, but at least you can pretend.
+```bash
+npx @vscode/vsce package
+```
+- After you run this, in your folder will generate a file ends with **.vsix**.
 
-With both light and dark modes that switch based on your system settings, you can now have your VS Code looking almost as good as Zed. Almost. Let's not get carried away here.
+- In vsc, type `ctrl+shift+p`, then input below:
+```markdown
+install from vsix
+```
+- Then you should select the file ends with **.vsix** related above.
 
-## How to Use
+- Now you can enjoy to select theme.
 
-1. Install this theme
-2. Apply it in VS Code
-3. Squint really hard and pretend you're using Zed
-4. Cry a little inside
-
-## Final Thoughts
-
-Remember, every time you open VS Code, a Zed developer sheds a single, perfect tear. But hey, at least now your code will look marginally less depressing while you wait for all those extensions to load.
-
-Enjoy your Zed-ish theme, you VS Code heathens!
-
-## A Note from the Creator
-
-If you're still reading this, you're probably procrastinating on actual coding. But since you're here, why not check out more of my questionable life choices? Head over to my GitHub:
-
-[github.com/arrrrny](https://github.com/arrrrny)
-
-Why "ARRRRNY," you ask? Well, it's either because I'm a pirate who can't spell, or because I fat-fingered my keyboard when signing up and now I'm too committed to the bit to change it.
-
-Of course I will never tell which is true.(neither) The mystery is half the fun. Or maybe it's all the fun.
-
-Either way, it's probably more interesting than watching another VS Code extension install.
-
-Remember, friends don't let friends use VS Code without irony. But if you must, at least do it in style with this theme. And if you see me in a dark alley, pretend you don't know me. I have a reputation to maintain in the Zed community.
-
-Now go forth and code, you beautiful VS Code disaster, you!
-
-## About the Icon
-
-Our icon is a loving nod to ZED – imagine if Zed's logo had a distant cousin who decided to rebel and join the VS Code family. It's not stealing if it's family, right? (Please don't sue us, Zed. We love you!)
+## Bug or others
+You can add issues.
