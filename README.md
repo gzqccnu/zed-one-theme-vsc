@@ -39,7 +39,7 @@ install from vsix
 ```
 - Then you should select the file ends with **.vsix** related above.
 
-- Now you can enjoy to select theme.
+- Now you can enjoy the themes.
 
 ## Bug or others
 You can add issues.
