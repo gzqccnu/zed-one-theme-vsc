@@ -11,7 +11,7 @@ A **zed-like** theme for vsc. Now support **light** theme and **dark** theme
 - **markdown support:**
 Support highlight markdown file.
 
-## QuickStart
+## Quick start
 > build on your own, no release.
 
 - First clone this repo.
