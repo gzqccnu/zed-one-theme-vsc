@@ -1,5 +1,7 @@
 # zed-one-theme for vscode
 
+![Number of GitHub Downloads badge](https://img.shields.io/github/downloads/gzqccnu/zed-one-theme-vsc/total?color=pink&label=GitHub%20Downloads)
+
 ## Explanation
 > [!Note]
 > This repository is forked from [zed-one-theme-vs](https://github.com/arrrrny/zed-one-theme-vs). Under MIT license.
@@ -12,7 +14,13 @@ A **zed-like** theme for vsc. Now support **light** theme and **dark** theme
 Support highlight markdown file.
 
 ## Quick start
-> build on your own, no release.
+
+### Using release
+You can install this extension in [release](https://github.com/gzqccnu/zed-one-theme-vsc/releases/download/0.1.0/zed-one-theme-0.1.0.vsix).
+Open your vscode, type `ctrl+shift+p`, then input **install from vsix**. Now you just need to find
+the place you downloaded `the vsix file` and click it. 
+
+### Build on your own
 
 - First clone this repo.
 ```bash
@@ -31,6 +39,9 @@ node --version
 cd zed-one-theme-vsc
 npx @vscode/vsce package
 ```
+> [!Important]
+> When running above command, you need to run your terminal as **Administrator**.
+
 - After you run this, in your folder will generate a file ends with **.vsix**.
 
 - In vsc, type `ctrl+shift+p`, then input below:
