@@ -27,7 +27,7 @@ the place you downloaded `the vsix file` and click it.
 git clone https://github.com/gzqccnu/zed-one-theme-vsc.git
 ```
 - Then build the extension
-> [!Important]
+> [!Tip]
 > Ensure you have node.
 > you can run below to test.
 ```bash
